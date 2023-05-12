@@ -21,14 +21,16 @@ var isSvg = require('is-svg');
 var Fontmin = require('../index');
 
 
-var fontName = 'HYQiHei-45J'
+// var fontName = 'HYQiHei-45J'
+var fontName = 'HYRunYuan-45J'
+
 // var fontName = 'HYRunYuan-45J'
 
 var srcPath = path.resolve(__dirname, '../fonts/fonts/' + fontName + '.ttf');
 var destPath = path.resolve(__dirname, '../fonts/dest');
 var destFile = path.resolve(destPath, fontName);
 
-var text = '1234567890,，、。AaBbCcDdEdFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz()（）江苏省南京市中山路号德基广场二期负一层北朝阳区建国卸货平台上海黄浦东新世界大丸百楼专柜四川成都武侯天府道段临馆深圳罗湖桂园街人民桥社宝安万象城商铺即刻申领'
+var text = '1234567890,，、。AaBbCcDdEdFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz()（）江苏省南京市中山路号德基广场二期负一层北朝阳区建国卸货平台上海黄浦东新世界大丸百楼专柜四川成都武侯天府道段临馆深圳罗湖桂园街人民桥社宝安万象城商铺即刻申领精品'
 
 function getFile(files, ext) {
     var re = new RegExp(ext + '$');
